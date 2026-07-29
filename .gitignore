@@ -1,0 +1,21 @@
+# Environment & Secrets (NEVER COMMIT API KEYS)
+.env
+.env.local
+*.env
+
+# macOS System Files
+.DS_Store
+
+# Python / AI / Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+*.egg-info/
+
+# Node / Frontend Dependencies
+node_modules/
+dist/
+build/
+.next/
